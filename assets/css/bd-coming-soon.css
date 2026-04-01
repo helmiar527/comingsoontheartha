@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins/Nunito-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-SemiBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-SemiBold.woff") format("woff"), url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins/Poppins-Bold.eot");
+  src: url("../fonts/Poppins/Poppins-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Bold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Bold.woff") format("woff"), url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins/Poppins-ExtraBold.eot");
+  src: url("../fonts/Poppins/Poppins-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-ExtraBold.woff2") format("woff2"), url("../fonts/Poppins/Poppins-ExtraBold.woff") format("woff"), url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins/Poppins-Regular.eot");
+  src: url("../fonts/Poppins/Poppins-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400; }
+  @media (max-width: 767px) {
+    body {
+      padding-top: 20px;
+      padding: 20px; } }
+
+main {
+  padding: 20px 0; }
+
+.brand-wrapper {
+  padding: 20px 0; }
+  .brand-wrapper img {
+    height: 21px; }
+  @media (max-width: 767px) {
+    .brand-wrapper {
+      margin-bottom: 20px; } }
+
+.page-title {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 16px; }
+  @media (max-width: 767px) {
+    .page-title {
+      font-size: 22px; } }
+
+.page-subtitle {
+  font-size: 18px;
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .page-subtitle {
+      font-size: 12px; } }
+
+.subscribe-form {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px; }
+  .subscribe-form .form-group {
+    margin-bottom: 0;
+    margin-right: 16px; }
+  .subscribe-form .form-control {
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 14px 170px 14px 20px;
+    font-size: 14px;
+    line-height: 32px; }
+    .subscribe-form .form-control::-webkit-input-placeholder {
+      color: #fff; }
+    .subscribe-form .form-control::-moz-placeholder {
+      color: #fff; }
+    .subscribe-form .form-control:-ms-input-placeholder {
+      color: #fff; }
+    .subscribe-form .form-control::-ms-input-placeholder {
+      color: #fff; }
+    .subscribe-form .form-control::placeholder {
+      color: #fff; }
+    @media (max-width: 767px) {
+      .subscribe-form .form-control {
+        padding: 14px 70px 14px 20px; } }
+  .subscribe-form .subscribe-btn {
+    background: #D35B3F;
+    border: 0;
+    font-size: 13px;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 14px 40px; }
+    @media (max-width: 767px) {
+      .subscribe-form .subscribe-btn {
+        font-size: 10px;
+        padding: 14px 20px; } }
+
+.bd-cd-timer {
+  display: flex;
+  width: 100%;
+  justify-content: left; }
+  @media (max-width: 767px) {
+    .bd-cd-timer {
+      padding: 50px 0; } }
+  .bd-cd-timer .time-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 112px;
+    position: relative;
+    margin-right: 20px; }
+    @media (max-width: 575px) {
+      .bd-cd-timer .time-card {
+        width: calc( 25% - 5px);
+        margin-right: 10px; } }
+    .bd-cd-timer .time-card .time-count {
+      display: flex;
+      width: 100%;
+      height: 140px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      padding: 28px 38px 80px 38px;
+      font-weight: 500;
+      border-radius: 6px; }
+      @media (max-width: 991px) {
+        .bd-cd-timer .time-card .time-count {
+          height: 100px;
+          font-size: 30px; } }
+    .bd-cd-timer .time-card .time-label {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      color: #eeeeee;
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center; }
+      @media (max-width: 991px) {
+        .bd-cd-timer .time-card .time-label {
+          font-size: 12px; } }
+
+.footer-social-links {
+  padding: 10px 0;
+  margin-top: 30px; }
+  .footer-social-links .social-link {
+    display: inline-flex;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 20px;
+    color: #fffafa; }
+    .footer-social-links .social-link:last-child {
+      margin-right: 0; }
+
+.footer-text {
+  font-size: 14px;
+  padding: 20px 0;
+  padding-bottom: 0; }
+  @media (max-width: 767px) {
+    .footer-text {
+      font-size: 10px; } }
+
+/*# sourceMappingURL=bd-coming-soon.css.map */
