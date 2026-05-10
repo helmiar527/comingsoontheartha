@@ -36,6 +36,10 @@ Catatan perubahan dan pembaruan sistem The Artha:
 * Penambahan navigasi footer dan link media sosial (Instagram, Facebook, YouTube).
 * Setup struktur folder dasar (`assets/css`, `assets/js`).
 
+### [1.0.1] - 2026-05-10
+#### Added
+* Update karena devnya pusing
+
 ---
 
 ## 👨‍💻 Author

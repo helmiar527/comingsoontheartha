@@ -1,4 +1,4 @@
-var releaseDateString = "2026-03-14 00:00:00"; 
+var releaseDateString = "2026-07-01 00:00:00"; 
 
 var endDate = new Date(releaseDateString).getTime();
 
